@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{DD72ACBA-BB51-45F6-9AFC-AB9FD60B612C}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\day1.txt = TestFiles\day1.txt
+		TestFiles\day12.txt = TestFiles\day12.txt
+		TestFiles\day13.txt = TestFiles\day13.txt
+		TestFiles\day14.txt = TestFiles\day14.txt
+		TestFiles\day15.txt = TestFiles\day15.txt
+		TestFiles\day16.txt = TestFiles\day16.txt
+		TestFiles\day17.txt = TestFiles\day17.txt
+		TestFiles\day18.txt = TestFiles\day18.txt
+		TestFiles\day19.txt = TestFiles\day19.txt
+		TestFiles\day2.txt = TestFiles\day2.txt
+		TestFiles\day21.txt = TestFiles\day21.txt
+		TestFiles\day22.txt = TestFiles\day22.txt
+		TestFiles\day23.txt = TestFiles\day23.txt
+		TestFiles\day24.txt = TestFiles\day24.txt
+		TestFiles\day25.txt = TestFiles\day25.txt
+		TestFiles\day3.txt = TestFiles\day3.txt
+		TestFiles\day4.txt = TestFiles\day4.txt
+		TestFiles\day5.txt = TestFiles\day5.txt
+		TestFiles\day6.txt = TestFiles\day6.txt
+		TestFiles\day7.txt = TestFiles\day7.txt
+		TestFiles\day8.txt = TestFiles\day8.txt
+		TestFiles\day9.txt = TestFiles\day9.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{76B780F6-AD49-41FC-BE0E-F61A0004970C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DB61F738-C4EF-49AC-B2CC-DC47E9A7CDC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B780F6-AD49-41FC-BE0E-F61A0004970C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B780F6-AD49-41FC-BE0E-F61A0004970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B780F6-AD49-41FC-BE0E-F61A0004970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B780F6-AD49-41FC-BE0E-F61A0004970C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB61F738-C4EF-49AC-B2CC-DC47E9A7CDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB61F738-C4EF-49AC-B2CC-DC47E9A7CDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB61F738-C4EF-49AC-B2CC-DC47E9A7CDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB61F738-C4EF-49AC-B2CC-DC47E9A7CDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
