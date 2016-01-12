@@ -8,31 +8,6 @@ namespace ClassLibrary
 {
     public class Day22
     {
-        public class Calculator
-        {
-            public int LeastAmountOfManaToSpendAndWin(int playerHitpoints, int playerMana, Boss boss)
-            {
-                return int.MaxValue;
-
-                //var loadouts = GenerateAllLoadouts().ToList();
-
-                //foreach (var loadout in loadouts.OrderBy(x => x.TotalCost))
-                //{
-                //    var p1 = new HumanPlayer("Me", playerHitpoints, loadout);
-                //    var p2 = new Boss(boss.Name, boss.HitPoints, boss.Damage, boss.Armor);
-
-                //    var battle = new Battle(p1, p2);
-
-                //    var winner = battle.Fight();
-
-                //    if (winner == p1)
-                //        return loadout.TotalCost;
-                //}
-
-                //return 0;
-            }
-        }
-
         public class Simulator
         {
             enum GameResults
