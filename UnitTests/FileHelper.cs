@@ -9,7 +9,12 @@ namespace UnitTests
 {
     static class FileHelper
     {
-        const string FOLDER = "C:\\Projects\\AdventOfCode\\TestFiles";
+        readonly static string FOLDER;
+
+        static FileHelper()
+        {
+            FOLDER = System.Configuration.ConfigurationSettings.AppSettings["TestFileFolder"];
+        }
 
         public static string[] ReadTestFile(int day)
         {
